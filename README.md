@@ -1,6 +1,6 @@
 # List of contributors
-#### Mayphiga Llewellyn 6310610982
 #### Kantapon Makwong 6310520066
+#### Mayphiga Llewellyn 6310610982
 
 # Mobile Application function
 - Users can enter a number in an input box.
