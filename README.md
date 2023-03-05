@@ -6,7 +6,7 @@
 - Users can enter a number in an input box.
 - Users can only enter numbers in range of 1 to 1000 only.
 - Users will recieve hints if the number entered is too high or too low.
-- Users will get a congratulations message if the guessed number is correct.
+- Users will get a congratulations message and number of times guessed if the guessed number is correct.
 - Users can replay the game by play again button.
 
 ## Link to the video demonstration
