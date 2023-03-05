@@ -88,6 +88,7 @@ fun NumberGuessingGameTheme() {
                     value = guess,
                     onValueChange = { guess = it },
                     modifier = Modifier.width(200.dp),
+                    maxLines = 1,
                     keyboardOptions = KeyboardOptions.Default.copy(
                         imeAction = ImeAction.Done,
                         keyboardType = KeyboardType.Number
@@ -97,6 +98,8 @@ fun NumberGuessingGameTheme() {
                             if (guess.isNotEmpty()) {
                                 val guessNumber = guess.toInt()
                                 if (guessNumber > 1000) {
+                                    hint = "Hint: The number is between 1 and 1000."
+                                } else if (guessNumber < 1) {
                                     hint = "Hint: The number is between 1 and 1000."
                                 } else {
                                     numGuesses++
