@@ -11,4 +11,4 @@
 
 ## Link to the video demonstration
 
-[Click Here.](__link__)
+[Click Here.](https://www.youtube.com/watch?v=5HGXoyrkpTs)
